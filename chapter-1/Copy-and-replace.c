@@ -10,12 +10,15 @@ void main() {
         if (c == ' ')
         {
             ++blankQtt;
-        } else if (blankQtt > 0) {
-            putchar(' ');
-            putchar(c);
-            blankQtt = 0;
         } else {
+
+            if (blankQtt > 0)
+            {
+                putchar(' ');
+                blankQtt = 0;
+            }
+            
             putchar(c);
         }
-    }    
+    }
 }
