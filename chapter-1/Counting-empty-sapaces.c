@@ -23,7 +23,7 @@ void main() {
         {
             ++nl;
         }
-        
-        printf("Blanks: %d\nTabs: %d\nNewlines: %d\n", nb, nt, nl);
     }
+
+    printf("Blanks: %d\nTabs: %d\nNewlines: %d\n", nb, nt, nl);
 }
